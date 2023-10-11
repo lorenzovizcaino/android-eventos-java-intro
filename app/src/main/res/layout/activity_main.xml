@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- He cambiado a LinearLayout por ser más simple ya que solo voy a apilar botones -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_to_metodo_xml"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="1. Método XML" />
+
+    <Button
+        android:id="@+id/btn_to_listener_personalizado"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="2. Listener Personalizado" />
+
+    <Button
+        android:id="@+id/btn_to_listener_personalizado_inner"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="3. Listener personalizado en clase interna" />
+
+    <Button
+        android:id="@+id/btn_to_clase_anonima"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="4. Clase Anónima" />
+
+    <Button
+        android:id="@+id/btn_to_lambda"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="5. Lambda" />
+
+    <Button
+        android:id="@+id/btn_to_activity_listener"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="6. Activity como listener" />
+
+</LinearLayout>

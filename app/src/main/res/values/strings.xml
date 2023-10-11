@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Eventos Java Intro</string>
+    <string name="hola_mundo">Hi Teis con strings.xml!</string>
+</resources>
